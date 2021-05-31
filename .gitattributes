@@ -1,0 +1,7 @@
+# All text files should have LF endings. Make sure to update your text editor line ending settings on windows.
+# If you find any text file that MUST have CRLF endings, update this file.
+* text=auto eol=lf
+
+# Make INF files binary to avoid having git change the file.
+*.inf binary
+
