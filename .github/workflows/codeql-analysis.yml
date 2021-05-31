@@ -66,6 +66,8 @@ jobs:
     #    uses a compiled language
     - uses: seanmiddleditch/gha-setup-ninja@master
     - run: |
+       ls
+       ls ..
        cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -G Ninja
        cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
 
